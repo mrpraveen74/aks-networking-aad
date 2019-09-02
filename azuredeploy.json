@@ -49,18 +49,21 @@
             }
         },
         "existingServicePrincipalObjectId": {
+            "defaultValue": "ea5c5c64-ca27-479c-980c-1560b97cf136",
             "type": "securestring",
             "metadata": {
                 "description": "Oject ID against which the Network Contributor roles will be assigned on the subnet"
             }
         },
         "existingServicePrincipalClientId": {
+            "defaultValue": "d424e15a-d3fc-4fba-b087-eed53e05c744",
             "type": "securestring",
             "metadata": {
                 "description": "Client ID (used by cloudprovider)"
             }
         },
         "existingServicePrincipalClientSecret": {
+            "defaultValue": "3b556b08-d364-4ba6-a001-f634516e9987",
             "type": "securestring",
             "metadata": {
                 "description": "The Service Principal Client Secret."
@@ -162,24 +165,28 @@
             }
         },
         "AAD_ClientAppID":{
+            "defaultValue": "d424e15a-d3fc-4fba-b087-eed53e05c744",
             "type":"securestring",
             "metadata": {
                 "description": "The Application ID for the Client App Service Principal"
             }
         },
         "AAD_ServerAppID":{
+            "defaultValue": "7741016f-0573-4fb9-9378-848b82c3fd79",
             "type":"securestring",
             "metadata": {
                 "description": "The Application ID for the Server App Service Principal"
             }
         },
         "AAD_TenantID":{
+            "defaultValue": "977e15b6-016a-495e-9f66-6ea40438139d",
             "type":"securestring",
             "metadata": {
                 "description": "The Azure AD Tenant where the cluster will reside"
             }
         },
         "AAD_ServerAppSecret":{
+            "defaultValue": "977e15b6-016a-495e-9f66-6ea40438139d",
             "type":"securestring",
             "metadata": {
                 "description": "The Service Principal Secret for the Client App Service Principal"
