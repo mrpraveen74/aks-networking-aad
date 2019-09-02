@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "resourceName": {
-            "value": "GEN-UNIQUE"
+            "value": "resourceName1"
         },
         "dnsPrefix": {
-            "value": "GEN-UNIQUE"
+            "value": "dnsprefix"
         },
         "existingServicePrincipalObjectId": {
-            "value": "GEN-GUID"
+            "value": "ea5c5c64-ca27-479c-980c-1560b97cf136"
         },
         "existingServicePrincipalClientId": {
-            "value": "GEN-GUID"
+            "value": "d424e15a-d3fc-4fba-b087-eed53e05c744"
         },
         "existingServicePrincipalClientSecret": {
-            "value": "GEN-PASSWORD"
+            "value": "3b556b08-d364-4ba6-a001-f634516e9987"
         },
         "existingVirtualNetworkName": {
-            "value": "VNET-NAME"
+            "value": "VNETNAME1"
         },
         "existingVirtualNetworkResourceGroup": {
             "value": "VNET-RESOURCE-GROUP-NAME"
@@ -27,16 +27,16 @@
             "value": "SUBNET-NAME"
         },
         "AAD_ClientAppID":{
-            "value": "CLIENT-APP-ID-FROM-AZURE-AD"
+            "value": "d424e15a-d3fc-4fba-b087-eed53e05c744"
         },
         "AAD_ServerAppID":{
             "value":"SERVER-APP-ID-FROM-AZURE-AD"
         },
         "AAD_TenantID":{
-            "value":"AZURE-AD-TENANT"
+            "value":"977e15b6-016a-495e-9f66-6ea40438139d"
         },
         "AAD_ServerAppSecret":{
-            "value":"SERVER-APP-SECRET-FROM-AZURE-AD"
+            "value":"977e15b6-016a-495e-9f66-6ea40438139d"
         }
     }
 }
