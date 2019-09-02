@@ -141,7 +141,7 @@
         },
         "existingSubnetRoleAssignmentName":{
             "type": "string",
-            "defaultValue": "[newGuid()]",
+            "defaultValue": "e84fddcf-ac66-4d08-b84c-219293c0b81a",
             "metadata": {
                 "description": "Name of the Role Assignment created for the Service Principal in the existing Subnet"
             }
